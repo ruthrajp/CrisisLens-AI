@@ -113,7 +113,7 @@ export default function App() {
     dept?: DepartmentName
   ) => {
     try {
-      const res = await fetch(`/api/incidents/${id}`, {
+      const res = await fetch( `${import.meta.env.VITE_API_URL}/api/incidents/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
