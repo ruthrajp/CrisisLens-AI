@@ -50,7 +50,8 @@ export default function App() {
   // Load incidents from Node.js backend
   const fetchIncidents = async () => {
     try {
-      const res = await fetch("/api/incidents");
+       const res = await fetch(
+    `${import.meta.env.VITE_API_URL}/api/incidents`);
       if (res.ok) {
         const data = await res.json();
         setIncidents(data);
