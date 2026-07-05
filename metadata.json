@@ -1,0 +1,6 @@
+{
+  "name": "CrisisLens AI",
+  "description": "Intelligent Crisis Detection and Emergency Response System. AI-powered emergency management platform where citizens can report emergency incidents and AI analyzes the reports to determine crisis details.",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
