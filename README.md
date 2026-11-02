@@ -1,3 +1,6 @@
+## 🚀 Project Demo
+
+[Open CrisisLens-AI](http://localhost:3000)
 # CrisisLens AI — Python FastAPI Backend Migration
 
 A full-stack, AI-powered emergency incident response triage system. The application has been migrated from a Node.js API to a Python FastAPI backend while preserving the React + TypeScript frontend and design layout.
